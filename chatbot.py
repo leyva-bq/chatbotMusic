@@ -50,7 +50,7 @@ for p in preguntas:
     seleccion = input(p)
     while seleccion not in ['1', '2', '3']:
         seleccion = input(p)
-    respuestas.append(p)
+    respuestas.append(seleccion)
     
 nivel = chatbot(respuestas)[1]
 
